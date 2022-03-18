@@ -22,6 +22,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 100px 200px;
+    
 
 }
 
@@ -30,17 +31,25 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     padding-right: 150px ;
+    flex: 1 1 0px;
 
 }
 
-img {
+.imageplaceholder {
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 0px;
     height: 300px;
-    width: 600px;
+
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 900;
 }
 
 .links {
@@ -67,9 +76,10 @@ a {
 
 button {
     background-color: #3882F6 ;
-    border-radius: 10%;
-    width: 25%;
-
+    border-radius: 8px;
+    border:none;
+    padding: 8px;
+    width: 20%;
 }
 
 .footer {
@@ -125,4 +135,66 @@ button {
     display: flex;
     justify-content: center;
     padding: 0px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 150px 400px;
+    gap: 8px;
+}
+
+.quotetext {
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-style: italic;
+    flex-wrap: wrap;
+    color: #1F2937;
+}
+
+.signature {
+    font-size: 24px;
+    color: black;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.ctabox {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 50px 125px;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;
+}
+
+.ctacontents {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ctabutton {
+    border-radius: 15px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    color: #e5e7eb;
+    font-weight: 700;
+    font-size: 20px;
+
 }
