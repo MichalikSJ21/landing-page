@@ -80,6 +80,7 @@ button {
     border:none;
     padding: 8px;
     width: 20%;
+    color: #F9FAF8;
 }
 
 .footer {
@@ -193,7 +194,7 @@ button {
     justify-content: center;
     align-items: center;
     padding: 5px 20px;
-    color: #e5e7eb;
+    color: #F9FAF8;
     font-weight: 700;
     font-size: 20px;
 
